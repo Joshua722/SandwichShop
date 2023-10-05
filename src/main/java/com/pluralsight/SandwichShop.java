@@ -36,7 +36,7 @@ public class SandwichShop {
             System.out.println("Great you qualify for a discount! Here is your total : " + young_total_price2 );
         }
         if (user_age <= 17 && sandwich_choice.equals("regular")) {
-            System.out.println("That's great you qualify for a student discount!Here is your total :  " + young_total_price);
+            System.out.println("That's great you qualify for a student discount! Here is your total :  " + young_total_price);
         }
         if (user_age >= 65 && sandwich_choice.equals("large")) {
             System.out.println("Amazing! You get a senior discount! Here is your total :  "  + old_total_price2);
